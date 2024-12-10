@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.line{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn1{
+    background-color: #d95980;
+}
+.btn2{
+    background-color: #63aac0;
+}
+.btn3{
+    background-color: #f99b45;
+}
+.btn4{
+    background-color: #819ff9;
+}
+.flash{
+    background-color: #fff;
+}
+.gameOver{
+    background-color: red;
+}
